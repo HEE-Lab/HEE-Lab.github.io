@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://hee-lab.github.io/blog</id>
     <title>Hydraulic and Ecology-Environment Lab Blog</title>
     <updated>2022-12-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://hee-lab.github.io/blog"/>
     <subtitle>Hydraulic and Ecology-Environment Lab Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <icon>https://hee-lab.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <link href="https://hee-lab.github.io/blog/welcome"/>
         <updated>2022-12-22T00:00:00.000Z</updated>
         <author>
             <name>안강현</name>
