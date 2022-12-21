@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hydraulic and Ecology-Environment Lab',
   tagline: 'Department of Civil & Environmental Engineering, Hanbat National University',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hee-lab.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'HEE Lab',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'HEE Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hee-lab',
             label: 'GitHub',
             position: 'right',
           },
@@ -95,18 +95,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
           {
@@ -118,7 +106,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/hee-lab',
               },
             ],
           },
