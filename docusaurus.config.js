@@ -58,10 +58,10 @@ const config = {
     ({
       navbar: {
         title: 'HEE Lab',
-        logo: {
-          alt: 'HEE Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'HEE Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {to: '/members', label: 'Members', position: 'left'},
           {to: '/advisor', label: 'Advisor', position: 'left'},

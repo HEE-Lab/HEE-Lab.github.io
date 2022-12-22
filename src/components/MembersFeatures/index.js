@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '안강현',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
     description: (
       <>
         학부 연구생
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '안동규',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
     description: (
       <>
         학부 연구생
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '이용호',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
     description: (
       <>
         학부 연구생
@@ -32,7 +32,7 @@ const FeatureList = [
   },
   {
     title: '김종혁',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: 'https://avatars.githubusercontent.com/u/34566999?v=4',
     description: (
       <>
         학부 연구생
@@ -41,7 +41,7 @@ const FeatureList = [
   },
   {
     title: '양설아',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
     description: (
       <>
         학부 연구생
@@ -50,7 +50,7 @@ const FeatureList = [
   },
   {
     title: '이승욱',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: require('@site/static/img/profile/lsw.jpeg').default,
     description: (
       <>
         학부 연구생
@@ -59,11 +59,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className="text--center" >
+        <img src={Img} className={styles.featureImg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

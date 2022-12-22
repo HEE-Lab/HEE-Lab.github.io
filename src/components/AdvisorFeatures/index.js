@@ -47,7 +47,7 @@ const specs = [
 const FeatureList = [
   {
     title: '이종석(李 宗 䄷)',
-    Img: require('@site/static/img/prof.png').default,
+    Img: require('@site/static/img/profile/prof.png').default,
      
     description: (
       <>
