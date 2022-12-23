@@ -63,8 +63,8 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
-          {to: '/members', label: 'Members', position: 'left'},
           {to: '/advisor', label: 'Advisor', position: 'left'},
+          {to: '/members', label: 'Members', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
