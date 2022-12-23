@@ -73,6 +73,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'http://cafe.hanbat.ac.kr/cafe/19961001/',
+            label: "Advisor's HomePage",
+            position: 'right',
+          },
+          {
             href: 'https://github.com/hee-lab',
             label: 'GitHub',
             position: 'right',
