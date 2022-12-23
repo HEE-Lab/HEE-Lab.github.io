@@ -44,6 +44,16 @@ const specs = [
   '2014.08.∼2016.08. 한밭대학교 입학관리본부장',
   '2015.03.∼2019.03. 대전광역시 유성구 사전재해영향성검토위원회 위원'];
 
+const academy = [
+  '한국수자원학회 정회원(1990.∼현재)',
+  '대한토목학회 정회원(1991.∼현재)',
+  '미국토목학회(ASCE) 회원(1997.∼현재)',
+  '국제수환경공학회(IAHR) 회원(2003.∼현재)',
+  '한국방재학회 정회원(2003.∼현재)',
+  '한국콘텐츠학회 정회원(2006.∼현재)',
+  '한국복원생태학회 정회원(2008.∼현재)'
+]
+
 const FeatureList = [
   {
     title: '이종석(李 宗 䄷)',
@@ -68,6 +78,10 @@ function Feature({Img, title, description}) {
   const lspecs = specs.map((spec) => 
   <li>{spec}</li> 
   );
+
+  const lacademy = academy.map((spec) =>
+  <li>{spec}</li>
+  );
   
   return (
     <div className={clsx('col')}>
@@ -76,6 +90,8 @@ function Feature({Img, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
+        <hr></hr>
+        <h4>인사말</h4>
         <p>{description}</p>
         <hr></hr>
         <h4>학력</h4>
@@ -83,6 +99,9 @@ function Feature({Img, title, description}) {
         <hr></hr>
         <h4>경력</h4>
         <ul>{lspecs}</ul>
+        <hr></hr>
+        <h4>학회활동</h4>
+        <ul>{lacademy}</ul>
       </div>
     </div>
   );
