@@ -94,10 +94,10 @@ function Feature({Img, title, description}) {
         <h4>인사말</h4>
         <p>{description}</p>
         <hr></hr>
-        <h4>학력</h4>
+        <h4>학력사항</h4>
         <ul>{ledu}</ul>
         <hr></hr>
-        <h4>경력</h4>
+        <h4>주요경력</h4>
         <ul>{lspecs}</ul>
         <hr></hr>
         <h4>학회활동</h4>
