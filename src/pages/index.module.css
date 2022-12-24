@@ -13,29 +13,25 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 450px) {
   .heroBanner {
     padding: 2rem;
-    background-size: 200%;
-  }
-}
-
-@media screen and (min-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-    background-size: 100%;
-    height: 700px;
+    background-size: 300%;
+    background-position: center;
+    height: 600px;
     width: auto;
   }
 }
 
-
-
-
-
-
-
-
+@media screen and (min-width: 1080px) {
+  .heroBanner {
+    padding: 2rem;
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    width: auto;
+  }
+}
 
 .buttons {
   display: flex;
