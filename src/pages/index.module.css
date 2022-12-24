@@ -5,20 +5,37 @@
 
  .heroBanner {
   padding: 4rem 0;
-  height: 850px;
   text-align: center;
   position: relative;
   overflow: hidden;
   background-position: center;
-  background-size: 100%;
+  background-repeat: no-repeat;
   opacity: 0.8;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (min-width: 600px) {
   .heroBanner {
     padding: 2rem;
+    background-size: 200%;
   }
 }
+
+@media screen and (min-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    background-size: 100%;
+    height: 700px;
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
+
 
 .buttons {
   display: flex;
