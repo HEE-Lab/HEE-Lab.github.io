@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/hee/HEE-Lab.github.io/sidebars.js",
-          "contentPath": "/home/hee/HEE-Lab.github.io/docs",
-          "contentPathLocalized": "/home/hee/HEE-Lab.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/jong/hee-lab.github.io/sidebars.js",
+          "contentPath": "/home/jong/hee-lab.github.io/docs",
+          "contentPathLocalized": "/home/jong/hee-lab.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -57,6 +57,55 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "swe",
+          "metadata": {
+            "permalink": "/blog/swe",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-12-27-SWE/index.md",
+            "source": "@site/blog/2022-12-27-SWE/index.md",
+            "title": "SWE(Shallow Water Equations)",
+            "description": "Shallow-Water Equations (SWE)는 어떤 유체에서 압력표면(반드시는 아니나, 때때로 자유수면을 뜻한다.) 아래의 흐름을 설명하는 쌍곡선 편미분 방정식의 집합이다. (만약 점성에 의한 전단력이 고려된다면 포물선 편미분 방정식이 된다.)",
+            "date": "2022-12-27T00:00:00.000Z",
+            "formattedDate": "December 27, 2022",
+            "tags": [
+              {
+                "label": "swe",
+                "permalink": "/blog/tags/swe"
+              },
+              {
+                "label": "hydraulics",
+                "permalink": "/blog/tags/hydraulics"
+              }
+            ],
+            "readingTime": 1.625,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "김종혁",
+                "title": "Undergradue Student",
+                "url": "https://enfycius.github.io",
+                "imageURL": "https://avatars.githubusercontent.com/u/34566999?v=4",
+                "key": "jong"
+              }
+            ],
+            "frontMatter": {
+              "slug": "swe",
+              "title": "SWE(Shallow Water Equations)",
+              "authors": [
+                "jong"
+              ],
+              "tags": [
+                "swe",
+                "hydraulics"
+              ]
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "Shallow-Water Equations (SWE)는 어떤 유체에서 압력표면(반드시는 아니나, 때때로 자유수면을 뜻한다.) 아래의 흐름을 설명하는 쌍곡선 편미분 방정식의 집합이다. (만약 점성에 의한 전단력이 고려된다면 포물선 편미분 방정식이 된다.)\n\n단일 방향의 형태에서 SWE는 소위 Saint-Venant 방정식으로 불린다.\n\n이러한 Saint-Venant 방정식은 Navier-Stokes 방정식을 수심(depth)에 대해 적분함으로써 유도할 수 있는데, 이 경우 수평 길이의 스케일(scale)이 연직 길이의 스케일(scale)에 비해 훨씬 더 크다.\n\n이러한 조건 하에서 질량의 보존은 연직 방향으로의 유속에 대한 스케일이 수평에 비해 작다는 것을 의미한다.\n\n:::success\n예를 들어, 어떤 통수단면이 단위폭을 지닌다고 가정해보자.\n\n수평방향으로의 통수단면적을 $A_{}\n\n앞서 수평 길이의 스케일이 연직 길이의 스케일에 비해 훨신 더 크다고 했으므로,\n\n즉, $A = 1 \\times h$가 되는데, 앞서 수평 길이의 스케일이 연직 길이의 스케일에 비해 훨씬 더 크다고 했으므로, \n:::"
+        },
+        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
@@ -86,43 +135,43 @@
               {
                 "name": "안강현",
                 "title": "Team Leader, Undergradue Student",
-                "url": "https://github.com/endiliey",
+                "url": "https://github.com/hee-lab/",
                 "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
                 "key": "ankang"
               },
               {
                 "name": "안동규",
                 "title": "Undergradue Student",
-                "url": "https://github.com/endiliey",
+                "url": "https://github.com/hee-lab/",
                 "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
                 "key": "andong"
               },
               {
                 "name": "이용호",
                 "title": "Undergradue Student",
-                "url": "https://sebastienlorber.com",
+                "url": "https://github.com/hee-lab/",
                 "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
                 "key": "leey"
               },
               {
                 "name": "김종혁",
                 "title": "Undergradue Student",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
+                "url": "https://enfycius.github.io",
+                "imageURL": "https://avatars.githubusercontent.com/u/34566999?v=4",
                 "key": "jong"
               },
               {
                 "name": "양설아",
                 "title": "Undergradue Student",
-                "url": "https://github.com/yangshun",
+                "url": "https://github.com/hee-lab/",
                 "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
                 "key": "yang"
               },
               {
                 "name": "이승욱",
                 "title": "Undergradue Student",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
+                "url": "https://github.com/hee-lab/",
+                "imageURL": "/img/profile/lsw.jpeg",
                 "key": "lees"
               }
             ],
@@ -142,6 +191,10 @@
                 "hello",
                 "docusaurus"
               ]
+            },
+            "prevItem": {
+              "title": "SWE(Shallow Water Equations)",
+              "permalink": "/blog/swe"
             }
           },
           "content": ""
@@ -150,6 +203,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "swe",
             "welcome"
           ],
           "metadata": {
@@ -157,13 +211,59 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 1,
+            "totalCount": 2,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/swe": {
+          "label": "swe",
+          "items": [
+            "swe"
+          ],
+          "permalink": "/blog/tags/swe",
+          "pages": [
+            {
+              "items": [
+                "swe"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/swe",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hydraulics": {
+          "label": "hydraulics",
+          "items": [
+            "swe"
+          ],
+          "permalink": "/blog/tags/hydraulics",
+          "pages": [
+            {
+              "items": [
+                "swe"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hydraulics",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/facebook": {
           "label": "facebook",
           "items": [

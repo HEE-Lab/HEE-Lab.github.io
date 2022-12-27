@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 6/6.3",
+  "id": "hydraulics/Chapter 6/6.3",
+  "title": "Interacting with Web APIs",
+  "description": "많은 웹사이트들이 JSON이나 기타 다른 포맷 등을 통해 데이터 피드를 제공하는 public API를 가지고 있는데, 파이썬을 통해 이러한 API들에 접근하는 많은 방식들이 존재한다.",
+  "source": "@site/docs/hydraulics/Chapter 6/6.3.md",
+  "sourceDirName": "hydraulics/Chapter 6",
+  "slug": "/hydraulics/Chapter 6/6.3",
+  "permalink": "/docs/hydraulics/Chapter 6/6.3",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 6/6.3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Binary Data Formats",
+    "permalink": "/docs/hydraulics/Chapter 6/6.2"
+  },
+  "next": {
+    "title": "Interacting with Databases",
+    "permalink": "/docs/hydraulics/Chapter 6/6.4"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/swe",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-12-27-SWE/index.md",
+  "source": "@site/blog/2022-12-27-SWE/index.md",
+  "title": "SWE(Shallow Water Equations)",
+  "description": "Shallow-Water Equations (SWE)는 어떤 유체에서 압력표면(반드시는 아니나, 때때로 자유수면을 뜻한다.) 아래의 흐름을 설명하는 쌍곡선 편미분 방정식의 집합이다. (만약 점성에 의한 전단력이 고려된다면 포물선 편미분 방정식이 된다.)",
+  "date": "2022-12-27T00:00:00.000Z",
+  "formattedDate": "December 27, 2022",
+  "tags": [
+    {
+      "label": "swe",
+      "permalink": "/blog/tags/swe"
+    },
+    {
+      "label": "hydraulics",
+      "permalink": "/blog/tags/hydraulics"
+    }
+  ],
+  "readingTime": 1.625,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "김종혁",
+      "title": "Undergradue Student",
+      "url": "https://enfycius.github.io",
+      "imageURL": "https://avatars.githubusercontent.com/u/34566999?v=4",
+      "key": "jong"
+    }
+  ],
+  "frontMatter": {
+    "slug": "swe",
+    "title": "SWE(Shallow Water Equations)",
+    "authors": [
+      "jong"
+    ],
+    "tags": [
+      "swe",
+      "hydraulics"
+    ]
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}
