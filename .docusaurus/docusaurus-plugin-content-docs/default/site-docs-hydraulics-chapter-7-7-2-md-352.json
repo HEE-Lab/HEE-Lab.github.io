@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 7/7.2",
+  "id": "hydraulics/Chapter 7/7.2",
+  "title": "Data Transformation",
+  "description": "중복된 행들은 DataFrame 내에 존재할 수 있다.",
+  "source": "@site/docs/hydraulics/Chapter 7/7.2.md",
+  "sourceDirName": "hydraulics/Chapter 7",
+  "slug": "/hydraulics/Chapter 7/7.2",
+  "permalink": "/docs/hydraulics/Chapter 7/7.2",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 7/7.2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Handling Missing Data",
+    "permalink": "/docs/hydraulics/Chapter 7/7.1"
+  },
+  "next": {
+    "title": "Chapter 8 Data Wrangling: Join, Combine, and Reshape",
+    "permalink": "/docs/category/chapter-8-data-wrangling-join-combine-and-reshape"
+  }
+}

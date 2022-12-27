@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 6/6.1",
+  "id": "hydraulics/Chapter 6/6.1",
+  "title": "Reading and Writing Data in Text Format",
+  "description": "우선 csv 파일을 Pandas의 read_csv를 통해 불러들인 다음,",
+  "source": "@site/docs/hydraulics/Chapter 6/6.1.md",
+  "sourceDirName": "hydraulics/Chapter 6",
+  "slug": "/hydraulics/Chapter 6/6.1",
+  "permalink": "/docs/hydraulics/Chapter 6/6.1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 6/6.1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/hydraulics/Chapter 6/intro"
+  },
+  "next": {
+    "title": "Binary Data Formats",
+    "permalink": "/docs/hydraulics/Chapter 6/6.2"
+  }
+}

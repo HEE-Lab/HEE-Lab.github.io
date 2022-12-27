@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 8/8.1",
+  "id": "hydraulics/Chapter 8/8.1",
+  "title": "Hierarchical Indexing",
+  "description": "계층적 인덱싱이란 어떤 축에 대해서 다중(두 개 이상의) 인덱스 levels를 가지도록 해주는 Pandas의 중요한 특징이다.",
+  "source": "@site/docs/hydraulics/Chapter 8/8.1.md",
+  "sourceDirName": "hydraulics/Chapter 8",
+  "slug": "/hydraulics/Chapter 8/8.1",
+  "permalink": "/docs/hydraulics/Chapter 8/8.1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 8/8.1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/hydraulics/Chapter 8/intro"
+  },
+  "next": {
+    "title": "Combining and Merging Datasets",
+    "permalink": "/docs/hydraulics/Chapter 8/8.2"
+  }
+}

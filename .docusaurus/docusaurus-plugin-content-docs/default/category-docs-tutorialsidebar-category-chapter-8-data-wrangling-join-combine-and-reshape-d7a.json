@@ -1,0 +1,15 @@
+{
+  "title": "Chapter 8 Data Wrangling: Join, Combine, and Reshape",
+  "slug": "/category/chapter-8-data-wrangling-join-combine-and-reshape",
+  "permalink": "/docs/category/chapter-8-data-wrangling-join-combine-and-reshape",
+  "navigation": {
+    "previous": {
+      "title": "Data Transformation",
+      "permalink": "/docs/hydraulics/Chapter 7/7.2"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/hydraulics/Chapter 8/intro"
+    }
+  }
+}

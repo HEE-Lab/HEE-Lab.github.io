@@ -1,0 +1,15 @@
+{
+  "title": "Data Analysis",
+  "slug": "/category/data-analysis",
+  "permalink": "/docs/category/data-analysis",
+  "navigation": {
+    "previous": {
+      "title": "The Documentation of Hee-Lab",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/hydraulics/intro"
+    }
+  }
+}

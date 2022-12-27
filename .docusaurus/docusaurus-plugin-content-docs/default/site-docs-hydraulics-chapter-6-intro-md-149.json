@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 6/intro",
+  "id": "hydraulics/Chapter 6/intro",
+  "title": "Introduction",
+  "description": "수많은 도구들이 있으나, 본 Chapter에서는 기본적으로 데이터의 입출력을 위하여 판다스(Pandas) 라이브러리를 활용하고자 한다.",
+  "source": "@site/docs/hydraulics/Chapter 6/intro.md",
+  "sourceDirName": "hydraulics/Chapter 6",
+  "slug": "/hydraulics/Chapter 6/intro",
+  "permalink": "/docs/hydraulics/Chapter 6/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 6/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 6 Data Loading, Storage, and File Formats",
+    "permalink": "/docs/category/chapter-6-data-loading-storage-and-file-formats"
+  },
+  "next": {
+    "title": "Reading and Writing Data in Text Format",
+    "permalink": "/docs/hydraulics/Chapter 6/6.1"
+  }
+}

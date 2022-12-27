@@ -6,7 +6,7 @@
 export default {
   "title": "Hydraulic and Ecology-Environment Lab",
   "tagline": "Department of Civil & Environmental Engineering, Hanbat National University",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://hee-lab.github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -26,35 +26,51 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/hee/HEE-Lab.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/home/jong/hee-lab.github.io/sidebars.js",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "theme": {
-          "customCss": "/home/hee/HEE-Lab.github.io/src/css/custom.css"
+          "customCss": "/home/jong/hee-lab.github.io/src/css/custom.css"
         }
       }
     ]
   ],
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      "crossorigin": "anonymous"
+    }
+  ],
   "themeConfig": {
     "navbar": {
       "title": "HEE Lab",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
-      },
       "items": [
-        {
-          "to": "/members",
-          "label": "Members",
-          "position": "left"
-        },
         {
           "to": "/advisor",
           "label": "Advisor",
+          "position": "left"
+        },
+        {
+          "to": "/members",
+          "label": "Members",
           "position": "left"
         },
         {
@@ -69,7 +85,12 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "http://cafe.hanbat.ac.kr/cafe/19961001/",
+          "label": "Advisor's HomePage",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/hee-lab",
           "label": "GitHub",
           "position": "right"
         }
@@ -90,20 +111,7 @@ export default {
         },
         {
           "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
+          "items": []
         },
         {
           "title": "More",
@@ -114,7 +122,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/hee-lab"
             }
           ]
         }
@@ -353,7 +361,6 @@ export default {
   "themes": [],
   "scripts": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,
