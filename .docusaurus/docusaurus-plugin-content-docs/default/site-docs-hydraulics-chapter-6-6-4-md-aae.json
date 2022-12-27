@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 6/6.4",
+  "id": "hydraulics/Chapter 6/6.4",
+  "title": "Interacting with Databases",
+  "description": "비즈니스 세계에서 대다수의 데이터들은 텍스트나 엑셀 파일들로 저장될 수 없다.",
+  "source": "@site/docs/hydraulics/Chapter 6/6.4.md",
+  "sourceDirName": "hydraulics/Chapter 6",
+  "slug": "/hydraulics/Chapter 6/6.4",
+  "permalink": "/docs/hydraulics/Chapter 6/6.4",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 6/6.4.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interacting with Web APIs",
+    "permalink": "/docs/hydraulics/Chapter 6/6.3"
+  },
+  "next": {
+    "title": "Chapter 7 Data Cleaning and Preparation",
+    "permalink": "/docs/category/chapter-7-data-cleaning-and-preparation"
+  }
+}

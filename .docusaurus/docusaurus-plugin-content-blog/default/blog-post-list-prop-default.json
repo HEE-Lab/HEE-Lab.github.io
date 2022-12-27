@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "SWE(Shallow Water Equations)",
+      "permalink": "/blog/swe"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     }

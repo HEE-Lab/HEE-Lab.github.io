@@ -1,0 +1,27 @@
+{
+  "unversionedId": "hydraulics/Chapter 9/6.2",
+  "id": "hydraulics/Chapter 9/6.2",
+  "title": "Binary Data Formats",
+  "description": "바이너리 포맷으로 데이터를 효율적으로 저장하기 위한 가장 쉬운 방법들 중 하나는 Python의 내장 pickle 직렬화를 사용하는 것이다.",
+  "source": "@site/docs/hydraulics/Chapter 9/6.2.md",
+  "sourceDirName": "hydraulics/Chapter 9",
+  "slug": "/hydraulics/Chapter 9/6.2",
+  "permalink": "/docs/hydraulics/Chapter 9/6.2",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hydraulics/Chapter 9/6.2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "비에너지와 한계수심",
+    "permalink": "/docs/hydraulics/Chapter 9/6.1"
+  },
+  "next": {
+    "title": "Interacting with Web APIs",
+    "permalink": "/docs/hydraulics/Chapter 9/6.3"
+  }
+}

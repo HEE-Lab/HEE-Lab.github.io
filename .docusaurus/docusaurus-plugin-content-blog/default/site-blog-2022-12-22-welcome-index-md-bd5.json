@@ -26,43 +26,43 @@
     {
       "name": "안강현",
       "title": "Team Leader, Undergradue Student",
-      "url": "https://github.com/endiliey",
+      "url": "https://github.com/hee-lab/",
       "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
       "key": "ankang"
     },
     {
       "name": "안동규",
       "title": "Undergradue Student",
-      "url": "https://github.com/endiliey",
+      "url": "https://github.com/hee-lab/",
       "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
       "key": "andong"
     },
     {
       "name": "이용호",
       "title": "Undergradue Student",
-      "url": "https://sebastienlorber.com",
+      "url": "https://github.com/hee-lab/",
       "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
       "key": "leey"
     },
     {
       "name": "김종혁",
       "title": "Undergradue Student",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
+      "url": "https://enfycius.github.io",
+      "imageURL": "https://avatars.githubusercontent.com/u/34566999?v=4",
       "key": "jong"
     },
     {
       "name": "양설아",
       "title": "Undergradue Student",
-      "url": "https://github.com/yangshun",
+      "url": "https://github.com/hee-lab/",
       "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
       "key": "yang"
     },
     {
       "name": "이승욱",
       "title": "Undergradue Student",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://cdn-icons-png.flaticon.com/128/149/149071.png",
+      "url": "https://github.com/hee-lab/",
+      "imageURL": "/img/profile/lsw.jpeg",
       "key": "lees"
     }
   ],
@@ -82,5 +82,9 @@
       "hello",
       "docusaurus"
     ]
+  },
+  "prevItem": {
+    "title": "SWE(Shallow Water Equations)",
+    "permalink": "/blog/swe"
   }
 }

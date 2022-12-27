@@ -1,0 +1,15 @@
+{
+  "title": "Hydraulics",
+  "slug": "/category/hydraulics",
+  "permalink": "/docs/category/hydraulics",
+  "navigation": {
+    "previous": {
+      "title": "The Documentation of Hee-Lab",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/hydraulics/intro"
+    }
+  }
+}
