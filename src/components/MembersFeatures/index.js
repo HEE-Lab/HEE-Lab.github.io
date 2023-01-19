@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '안강현',
-    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
+    Img: require('@site/static/img/profile/agh.jpeg').default,
     description: (
       <>
         학부 연구생
