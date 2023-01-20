@@ -1,6 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Parser from 'html-react-parser';
+
+import educations_t from 'raw-loader!./files/test.txt';
 
 const educations = [
   '단국대학교 대학원 토목공학과 박사과정 졸업(공학박사: 수공학 전공)',
@@ -184,6 +187,11 @@ const FeatureList = [
   },
 ];
 
+function NewlineText(props) {
+  const text = props.text;
+  return text.split('\n').map(str => <p>{str}</p>);
+}
+
 function Feature({Img, title, description}) {
   const ledu = educations.map((spec) => 
   <li>{spec}</li> 
@@ -200,6 +208,8 @@ function Feature({Img, title, description}) {
   const lpapers = papers.map((spec) =>
   <li>{spec}</li>
   );
+
+  console.log(typeof(Parser(educations_t)));
   
   return (
     <div className={clsx('col')}>
@@ -211,6 +221,7 @@ function Feature({Img, title, description}) {
         <hr></hr>
         <h4>인사말</h4>
         <p>{description}</p>
+        {/* <p><NewlineText text={educations_t} /></p> */}
         <hr></hr>
         <h4>학력사항</h4>
         <ul>{ledu}</ul>
