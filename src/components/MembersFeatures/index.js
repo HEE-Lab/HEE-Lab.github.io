@@ -41,7 +41,7 @@ const FeatureList = [
   },
   {
     title: '양설아',
-    Img: 'https://cdn-icons-png.flaticon.com/128/149/149071.png',
+    Img: require('@site/static/img/profile/ysa.jpeg').default,
     description: (
       <>
         학부 연구생
